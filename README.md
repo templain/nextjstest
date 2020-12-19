@@ -5,10 +5,10 @@ Next.js(TypesScript対応)の練習用プロジェクトです。
 
 ## 使い方
 ### 直接ローカル環境でビルド、実行(事前にnode.jsのインストールが必要)
-`npm install`でパッケージをインストール、`npm run dev`で開発用サーバ(http://localhost)が起動します。ソースを編集すると自動的に反映されます。
+`npm install`でパッケージをインストール、`npm run dev`で[開発用サーバ](http://localhost)が起動します。ソースを編集すると自動的に反映されます。
 
 ### Dockerでビルド、実行
-`docker-compose build && docker-compose up -d`で開発用サーバ(http://localhost:8000)が起動します。ソースはコンテナ内にコピーされますので、ソースを変更する場合は直接コンテナ内で修正するか、オリジナルのソースを編集後に再度上記のコマンドを実行します。
+`docker-compose build && docker-compose up -d`で[開発用サーバ](http://localhost:8000)が起動します。ソースはコンテナ内にコピーされますので、ソースを変更する場合は直接コンテナ内で修正するか、オリジナルのソースを編集後に再度上記のコマンドを実行します。
 
 ### Visual Studio CodeのRemote-Containers Extensionで実行
 1. Visual Studio Codeを起動し、ローカルのプロジェクトのフォルダを開く
