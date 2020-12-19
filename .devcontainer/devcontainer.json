@@ -1,0 +1,6 @@
+{
+    "name": "next-js-test",
+    "context": "..",
+    "dockerFile" : "Dockerfile",
+    "forwardPorts": [80] 
+}
